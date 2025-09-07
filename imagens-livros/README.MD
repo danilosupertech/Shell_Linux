@@ -10,9 +10,6 @@ O script está configurado para trabalhar no diretório padrão:
 
 ~/42Porto/Shell/imagens-livros/
 
-bash
-Copy code
-
 ⚠️ **Atenção:**  
 Se as suas imagens `.jpg` estiverem em outro local, você deve **alterar a variável e o caminho no script** para apontar para o diretório correto onde suas imagens estão armazenadas.
 
@@ -23,14 +20,14 @@ cd ~/42Porto/Shell/imagens-livros || exit 1
 E também esta:
 
 bash
-Copy code
+
 CAMINHO_IMAGENS_DES=~/42Porto/Shell/imagens-livros/livros/
 🛠️ Pré-requisitos
 Antes de executar o script, você precisa ter o ImageMagick instalado no sistema, pois ele fornece o comando convert. 🖼️⚙️
 
 Instalar ImageMagick (Ubuntu/Debian):
 bash
-Copy code
+
 sudo apt update
 sudo apt install imagemagick
 Verifique a instalação com:
@@ -47,7 +44,7 @@ chmod +x Scripts.sh
 Execute o script:
 
 bash
-Copy code
+
 ./Scripts.sh
 ⚡ O que o script faz
 🔄 Acessa o diretório configurado no script (padrão: ~/42Porto/Shell/imagens-livros)
@@ -61,14 +58,14 @@ Copy code
 📸 Exemplo
 Se o diretório contiver estas imagens:
 
-Copy code
+
 algoritmos.jpg
 estrutura.jpg
 linux.jpg
 Após rodar o script, você terá:
 
 swift
-Copy code
+
 ~/42Porto/Shell/imagens-livros/livros/
 ├── algoritmos.png
 ├── estrutura.png
@@ -83,8 +80,3 @@ Se houver .JPG (maiúsculas), elas serão ignoradas.
 
 👨‍💻 Autor
 Desenvolvido por danilosupertech 🚀
-
-css
-Copy code
-
-Se você preferir, posso te guiar a configurar para enviar arquivos direto aqui assim que voc
