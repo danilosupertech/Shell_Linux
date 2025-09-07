@@ -19,31 +19,22 @@ No script, altere esta linha para o caminho desejado:
 cd ~/42Porto/Shell/imagens-livros || exit 1
 E também esta:
 
-bash
-
 CAMINHO_IMAGENS_DES=~/42Porto/Shell/imagens-livros/livros/
 🛠️ Pré-requisitos
 Antes de executar o script, você precisa ter o ImageMagick instalado no sistema, pois ele fornece o comando convert. 🖼️⚙️
 
 Instalar ImageMagick (Ubuntu/Debian):
-bash
 
 sudo apt update
 sudo apt install imagemagick
 Verifique a instalação com:
 
-bash
-Copy code
 convert --version
 ▶️ Como usar
 Dê permissão de execução ao script:
 
-bash
-Copy code
 chmod +x Scripts.sh
-Execute o script:
-
-bash
+##Execute o script:
 
 ./Scripts.sh
 ⚡ O que o script faz
@@ -58,13 +49,10 @@ bash
 📸 Exemplo
 Se o diretório contiver estas imagens:
 
-
 algoritmos.jpg
 estrutura.jpg
 linux.jpg
 Após rodar o script, você terá:
-
-swift
 
 ~/42Porto/Shell/imagens-livros/livros/
 ├── algoritmos.png
